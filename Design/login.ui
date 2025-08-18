@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>871</width>
+    <height>739</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>MS Reference Sans Serif</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">\</string>
+  </property>
+  <widget class="QLineEdit" name="user">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>270</y>
+     <width>281</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passw">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>330</y>
+     <width>281</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit_Button">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>400</y>
+     <width>121</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="remem">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>370</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rememder</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="sign">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>430</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>6</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sing In</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>440</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Don't have an account?</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="forget">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>360</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Forget Password?</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>250</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>USERNAME</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>310</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>130</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>LOGIN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>90</y>
+     <width>221</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Wellcome</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>180</y>
+     <width>55</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>To</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>230</y>
+     <width>251</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Sport Shop</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

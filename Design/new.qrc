@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>img/red-circle-logout-arrow-20586 (1).png</file>
+  </qresource>
+</RCC>

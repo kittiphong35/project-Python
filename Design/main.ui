@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1179</width>
+    <height>838</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_name1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_price1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>420</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_stock1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>460</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add1">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>520</y>
+      <width>61</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1181</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="search">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>30</y>
+      <width>341</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_3">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>721</y>
+      <width>1191</width>
+      <height>81</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>SPort SHop</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="log_out">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>10</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/img/red-circle-logout-arrow-20586 (1).png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search_Button">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>30</y>
+      <width>81</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_img1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>251</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_img2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>200</y>
+      <width>251</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_img3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>200</y>
+      <width>251</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_img4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>200</y>
+      <width>251</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>380</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>380</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_name4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>380</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_price2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>420</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_price3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>420</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_price4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>420</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_stock2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>460</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_stock3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>460</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_stock4">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>460</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>520</y>
+      <width>61</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add3">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>520</y>
+      <width>61</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add4">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>520</y>
+      <width>61</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>271</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>271</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_3">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>180</y>
+      <width>271</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView_4">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>180</y>
+      <width>271</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mycart">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>10</y>
+      <width>71</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/newPrefix/img/red-circle-logout-arrow-20586 (1).png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="next_button2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>730</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Before</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="next_button">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>730</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <zorder>graphicsView_3</zorder>
+   <zorder>graphicsView_4</zorder>
+   <zorder>graphicsView_2</zorder>
+   <zorder>graphicsView</zorder>
+   <zorder>label_name1</zorder>
+   <zorder>label_price1</zorder>
+   <zorder>label_stock1</zorder>
+   <zorder>add1</zorder>
+   <zorder>textBrowser_2</zorder>
+   <zorder>search</zorder>
+   <zorder>textBrowser_3</zorder>
+   <zorder>label_17</zorder>
+   <zorder>log_out</zorder>
+   <zorder>search_Button</zorder>
+   <zorder>label_img1</zorder>
+   <zorder>label_img2</zorder>
+   <zorder>label_img3</zorder>
+   <zorder>label_img4</zorder>
+   <zorder>label_name2</zorder>
+   <zorder>label_name3</zorder>
+   <zorder>label_name4</zorder>
+   <zorder>label_price2</zorder>
+   <zorder>label_price3</zorder>
+   <zorder>label_price4</zorder>
+   <zorder>label_stock2</zorder>
+   <zorder>label_stock3</zorder>
+   <zorder>label_stock4</zorder>
+   <zorder>add2</zorder>
+   <zorder>add3</zorder>
+   <zorder>add4</zorder>
+   <zorder>mycart</zorder>
+   <zorder>next_button2</zorder>
+   <zorder>next_button</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1179</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+ </widget>
+ <resources>
+  <include location="new.qrc"/>
+ </resources>
+ <connections/>
+</ui>
